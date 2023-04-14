@@ -28,7 +28,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-	<!--
 <repositories>
 		<repository>
 			<id>nexus</id>
@@ -36,7 +35,7 @@
 			<url>http://35.182.4.176:8081/repository/apple-releases/</url>
 		</repository>
 	</repositories>
--->
+
  <dependencies>
 		
 		<dependency>
@@ -100,7 +99,7 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	<!--
+	
 		<repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
@@ -112,7 +111,6 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.96.154.159:8081/repository/apple-snapshot/</url>
 	    </snapshotRepository>
--->
 	    
 	</distributionManagement>
 	
