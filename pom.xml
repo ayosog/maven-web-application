@@ -101,19 +101,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>hhttp://35.182.94.58:8081/repository/maven-releases/</url>
+	      <url>http://3.96.154.159:8081/repository/apple-releases2/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.182.94.58:8081/repository/maven-snapshots/</url>
+	      <url>http://3.96.154.159:8081/repository/apple-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>paypal</finalName>
+		<finalName>apple</finalName>
 		
 		<plugins>
 			<plugin>
