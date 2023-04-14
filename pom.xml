@@ -100,7 +100,8 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <repository>
+	<!--
+		<repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://3.96.154.159:8081/repository/apple-releases2/</url>
@@ -111,6 +112,7 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.96.154.159:8081/repository/apple-snapshot/</url>
 	    </snapshotRepository>
+-->
 	    
 	</distributionManagement>
 	
